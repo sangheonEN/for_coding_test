@@ -4,3 +4,6 @@ print(len(a))
 a.pop()
 
 print(a)
+
+#%%
+print(7 // 2)
