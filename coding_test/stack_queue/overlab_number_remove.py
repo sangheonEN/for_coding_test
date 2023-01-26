@@ -25,21 +25,21 @@
 # print(a)
 
 
-# stack으로 푸는법
-def solution2(arr):
-    stack = [arr[0]]
-    result = [arr[0]]
+# # stack으로 푸는법
+# def solution2(arr):
+#     stack = [arr[0]]
+#     result = [arr[0]]
 
-    for num in arr:
-        curr = stack.pop()
-        if curr != num:
-            result.append(num)
+#     for num in arr:
+#         curr = stack.pop()
+#         if curr != num:
+#             result.append(num)
 
-        stack.append(num)
-    return result
+#         stack.append(num)
+#     return result
 
-a = solution2([1,1,3,3,0,1,1])
-print(a)
+# a = solution2([1,1,3,3,0,1,1])
+# print(a)
 
 # def solution(arr):
 #     stack = []
@@ -57,13 +57,14 @@ print(a)
 # # stack[]에 첫 수 넣고
 
 # 리스트 슬라이싱으로 마지막부터 확인 a[-1:]
-# def no_continuous(s):
-#     a = []
-#     for i in s:
-#         if a[-1:] == [i]: continue
-#         a.append(i)
-#     return a
-#
-# # 아래는 테스트로 출력해 보기 위한 코드입니다.
-# print( no_continuous( "133303" ))
+def no_continuous(s):
+    a = []
+    for i in s:
+        if a[-1:] == [i]:
+            continue
+        a.append(int(i))
+    return a
 
+
+# 아래는 테스트로 출력해 보기 위한 코드입니다.
+print(no_continuous([1, 3, 3, 3, 0, 1]))
