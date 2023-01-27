@@ -87,11 +87,11 @@ from collections import deque
 # print(a)
 
 
-
 """
 다른사람이 짠거 내꺼랑 비교하면 deque([0, 0, 1]) x, y, count를 넣어서 사용함.
 """
 from collections import deque
+
 
 def solution(maps):
     x_move = [1, 0, -1, 0]
@@ -99,7 +99,6 @@ def solution(maps):
 
     x_h, y_h = (len(maps[0]), len(maps))
     queue = deque([(0, 0, 1)])
-
 
     while queue:
         x, y, d = queue.popleft()
@@ -119,6 +118,7 @@ def solution(maps):
     return -1
 
 
-a = solution([[1,0,1,1,1],[1,0,1,0,1],[1,0,1,1,1],[1,1,1,0,1],[0,0,0,0,1]])
+a = solution([[1, 0, 1, 1, 1], [1, 0, 1, 0, 1], [
+             1, 0, 1, 1, 1], [1, 1, 1, 0, 1], [0, 0, 0, 0, 1]])
 
 print(a)
