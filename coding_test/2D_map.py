@@ -48,7 +48,6 @@ def solutions(map):
                         map[nx][ny] = 2
 
         return map
-
     for row in range(len(map)):
         for col in range(len(map[0])):
             map = update(row, col, map)
