@@ -37,13 +37,13 @@ for _ in range(5):
                     cnt2 += check[k][j]
                     if cnt2 == 5:
                         bingo += 1
-            # 가로 대각선
+            # / 대각선
             cnt3 = 0
             for k in range(5):
                 cnt3 += check[k][4-k]
                 if cnt3 == 5:
                     bingo += 1
-            # 세로 대각선
+            # \ 대각선
             cnt4 = 0
             for k in range(5):
                 cnt4 += check[k][k]
