@@ -19,6 +19,9 @@ print(index_list)
 #%%
 # 문자열 list에서 int로 변경
 b = ['1', '2', '3', '4']
+c = int("".join(b))
+print(type(c))
+print(c)
 #첫번째방법 list컴프리헨션 int("").join(a). "특정문자열".join(리스트)은 특정문자열 기준으로 리스트 원소를 합칠 때 사용함. 합치고 int()씌우고
 strtoint_list = [int(("").join(a)) for a in b]
 print(strtoint_list)

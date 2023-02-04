@@ -27,7 +27,7 @@ def quick_sort(arr):
 # print(quick_sort(array))
 
 
-
+#%%
 # pivot value이 설정되고
 # 왼쪽에서부터는 pivot value보다 큰 값을 선택할때까지 방문
 # 오른쪽에서부터는 pivot value보다 작은 값을 선택할때까지 방문
