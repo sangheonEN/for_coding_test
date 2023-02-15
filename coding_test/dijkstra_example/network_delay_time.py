@@ -46,6 +46,7 @@ class Solution:
             if node not in dist:
                 dist[node] = time
                 for v, w in graph[node]:
+                    # 누적 소요시간을 저장한다.
                     alt = time + w
                     heapq.heappush(Q, (alt, v))
                     # Q.append((alt, v))
