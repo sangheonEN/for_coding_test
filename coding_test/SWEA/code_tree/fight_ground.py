@@ -52,9 +52,14 @@ def loser_move(lose_player):
     try:
         board[x][y] = gun_damage
 
+        """
+        index [-1] 고려하기.
+        """
+
     except Exception as e:
         if e == 'IndexError: list assignment index out of range':
             pass
+
 
     # 빈 공간을 찾아 이동
     # 기존 방향으로 이동해보고, 격자 바깥으로 가거나 이동했을때 사람이 있을 경우, 90도 회전해서 이동.
@@ -148,7 +153,9 @@ def move_player(x, y, d):
 
     # 격자 넘어가면 반대 방향으로 이동
     if not is_range(nx, ny):
+        # d = 0 위쪽 2 아래
         d = (d + 2) if d < 2 else (d - 2)
+        ### 격자 반대 방향으로 이동한 좌표 찾기
         nx = -nx
         ny = -ny
 
@@ -164,6 +171,17 @@ def simulate():
         nx, ny, nd = move_player(x, y, d)
 
         # 이동한 방향에 플레이어가 없는 경우, 총 줍기 수행. 있는 경우 결투.
+        """
+            # # 사람이 있는지 없는지 확인하는 2차원 배열을 선언해서. _visited
+            # for i in range(30):
+            #     if _visited:
+            #         print()
+            #
+            
+            if _visited[nx][ny] = player_index
+            if _visited[nx][ny] = 0
+        """
+
         for j in range(m):
             if nx == player_arr[j][1] and ny == player_arr[j][2]: # 이동 방향에 플레이어 존재. 결투 시작
                 # 현재 플레이어 update 해주고 싸워야함.
@@ -192,6 +210,7 @@ if __name__ == "__main__":
         x, y, d, s = tuple(map(int, input().split()))
         player_arr.append((player_num, x-1, y-1, d, s, 0))
 
+
     # 방향 d -> 0:↑, 1:→, 2:↓, 3:←
     dx = [-1, 0, 1, 0]
     dy = [0, 1, 0, -1]
@@ -203,6 +222,7 @@ if __name__ == "__main__":
     # k번에 걸쳐 시뮬레이션을 진행합니다.
     for _ in range(k):
         simulate()
+
 
     # 각 플레이어가 획득한 포인트를 출력합니다.
     for point in pp:
