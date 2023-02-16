@@ -18,14 +18,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jteks/Documents/Github/for_coding_test&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/jteks/Documents/Github/SAMSUNG_CODING_TEST"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python.fight_ground">
     <configuration name="14502" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="for_coding_test" />
@@ -88,7 +88,8 @@
       <updated>1676527430467</updated>
       <workItem from="1676527431971" duration="56000" />
       <workItem from="1676527961963" duration="4270000" />
-      <workItem from="1676544153486" duration="9329000" />
+      <workItem from="1676544153486" duration="9412000" />
+      <workItem from="1676556389644" duration="1080000" />
     </task>
     <servers />
   </component>
