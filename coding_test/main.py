@@ -7,3 +7,7 @@ print(a)
 
 #%%
 print(7 // 2)
+
+#%%
+n = 5
+board = [list(map(int, input().split())) for i in range(n)]
