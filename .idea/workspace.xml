@@ -25,14 +25,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jteks/Documents/Github/for_coding_test&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/jteks/Documents/Github/SAMSUNG_CODING_TEST"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python.fight_ground">
     <configuration name="14502" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="for_coding_test" />
@@ -121,7 +121,7 @@
       <workItem from="1676544153486" duration="9412000" />
       <workItem from="1676556389644" duration="1148000" />
       <workItem from="1676557632960" duration="580000" />
-      <workItem from="1676703642582" duration="14557000" />
+      <workItem from="1676703642582" duration="16295000" />
     </task>
     <servers />
   </component>
@@ -133,35 +133,30 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/coding_test/SWEA/code_tree/fight_ground.py</url>
-          <line>205</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/coding_test/SWEA/code_tree/fight_ground.py</url>
-          <line>212</line>
+          <line>214</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/coding_test/SWEA/code_tree/fight_ground.py</url>
-          <line>36</line>
-          <option name="timeStamp" value="27" />
+          <line>53</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/coding_test/SWEA/code_tree/fight_ground.py</url>
-          <line>156</line>
-          <option name="timeStamp" value="28" />
+          <line>94</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/coding_test/SWEA/code_tree/fight_ground.py</url>
-          <line>202</line>
-          <option name="timeStamp" value="29" />
+          <line>211</line>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/for_coding_test$debug_py.coverage" NAME="debug_py Coverage Results" MODIFIED="1676718161871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/coding_test" />
-    <SUITE FILE_PATH="coverage/for_coding_test$fight_ground.coverage" NAME="fight_ground Coverage Results" MODIFIED="1676718173387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/coding_test/SWEA/code_tree" />
+    <SUITE FILE_PATH="coverage/for_coding_test$fight_ground.coverage" NAME="fight_ground Coverage Results" MODIFIED="1676719932952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/coding_test/SWEA/code_tree" />
     <SUITE FILE_PATH="coverage/for_coding_test$14502.coverage" NAME="14502 Coverage Results" MODIFIED="1676544568524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/coding_test/SWEA/baekjoon" />
   </component>
 </project>

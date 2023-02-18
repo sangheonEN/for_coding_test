@@ -201,6 +201,8 @@ def simulate():
 
         # step 1: 현재 플레이어의 다음 위치로 이동. 격자 벗어나면 반대 방향으로 이동.
         nx, ny, nd = move_player_position(x, y, d)
+        # 방향만 업데이트
+        update(cur_player_num, x, y, nd, s, gun_damage)
 
         # 이동 방향에 플레이어 존재 여부 확인. 존재하면 True, 존재하지 않으면 False
         find_flag = find_player(nx, ny) # find_flag는 0 또는 player의 number
