@@ -1,11 +1,15 @@
 
 
 def solution(P):
+    cnt = 0
+    visited = [False] * len(P)
+    P.sort()
 
-    def solve(start, cnt):
+    def solve(start):
         elements = list(set(P))
         j = 0
         first = True
+        global cnt
 
         for i in range(start, len(P)):
             if P[i] == elements[j] and not visited[i]:
@@ -21,16 +25,9 @@ def solution(P):
                     continue
                 j += 1
 
-        return cnt
-
-    cnt = 0
-    visited = [False] * len(P)
-    P.sort()
-
     for i in range(len(P)):
         if P[i] == min(P) and not visited[i]:
-            cnt = solve(i, cnt)
-            cnt += cnt
+            solve(i)
 
     if not all(visited) or cnt == 0:
         print(-1)
