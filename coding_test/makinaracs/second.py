@@ -1,14 +1,11 @@
-
-
 def solution(P):
-    P.sort()
-    global visited
 
     def solve(start):
         elements = list(set(P))
         j = 0
         first = True
-        global cnt
+        nonlocal cnt
+        nonlocal visited
 
         for i in range(start, len(P)):
             if P[i] == elements[j] and not visited[i]:
@@ -24,6 +21,10 @@ def solution(P):
                     continue
                 j += 1
 
+    P.sort()
+    visited = [False] * len(P)
+    cnt = 0
+
     for i in range(len(P)):
         if P[i] == min(P) and not visited[i]:
             solve(i)
@@ -35,7 +36,7 @@ def solution(P):
 
     return cnt
 
+
+
 P = [3, 2, 1, 4, 5]
-visited = [False] * len(P)
-cnt = 0
 print(solution(P))
