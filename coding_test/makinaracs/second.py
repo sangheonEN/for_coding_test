@@ -1,9 +1,8 @@
 
 
 def solution(P):
-    cnt = 0
-    visited = [False] * len(P)
     P.sort()
+    global visited
 
     def solve(start):
         elements = list(set(P))
@@ -33,6 +32,10 @@ def solution(P):
         print(-1)
     else:
         pass
+
     return cnt
 
-print(solution([3, 2, 1, 4, 5]))
+P = [3, 2, 1, 4, 5]
+visited = [False] * len(P)
+cnt = 0
+print(solution(P))
