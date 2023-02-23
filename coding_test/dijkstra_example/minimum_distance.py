@@ -26,6 +26,7 @@ class Solution:
 
         queue = [[start, 0]] # (거리, 출발노드) 배열 초기화
 
+        # node index별로 최단 distance 저장
         dist = [INF] * (N+1)
 
         while queue:
@@ -34,19 +35,24 @@ class Solution:
             if dist[node] < distance:  # 기존에 있는 거리보다 길다면, 볼 필요도 없음
                 continue
 
+            # 현재 node의 distance 갱신
             dist[node] = distance
+
             # 인접 노드 탐방
             for next_node, next_distance in graph[node]:
                 cumulative_distance = distance + next_distance
                 heapq.heappush(queue, [next_node, cumulative_distance])
 
-        # m을 반복해서 max 값으로 갱신, dist[0] 인덱스에는 INF가 저장되어 있으니 해당 index는 제외하고 루프문 수행.
-        m = 0
-        for d in range(1, len(dist)):
-            if INF <= dist[d]:
-                return -1
-            m = max(m, dist[d])
-        return m
+        # target node까지의 최단 거리 출력
+        return dist[end]
+
+        # # m을 반복해서 max 값으로 갱신, dist[0] 인덱스에는 INF가 저장되어 있으니 해당 index는 제외하고 루프문 수행.
+        # m = 0
+        # for d in range(1, len(dist)):
+        #     if INF <= dist[d]:
+        #         return -1
+        #     m = max(m, dist[d])
+        # return m
 
 
 if __name__ == "__main__":
