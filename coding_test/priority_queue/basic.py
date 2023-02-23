@@ -1,4 +1,3 @@
-#%%
 
 """
 일반적으로 최단, 최소를 구할때 사용함.
@@ -8,6 +7,8 @@
       3. 최대 힙으로 구현하는 경우 가치가 높은 데이터가 먼저 삭제된다.
       4. 그래서 deque를 활용한 queue구조는 node 상태를 update한 뒤에 또 최소, 최대에 따라 정렬을 해주는 작업이 필요하기 때문에 heapq 패키지를 이용한다.
 """
+
+#%%
 import heapq
 
 # heappush를 할때마다, 새 요소가 힙에 추가되면서 자동으로 최소 힙으로 재구성되어 순서를 유지한다.
@@ -18,6 +19,12 @@ heapq.heappush(Q, 4)
 heapq.heappush(Q, 10)
 heapq.heappush(Q, 2)
 print(Q)
+heapq.heappop(Q)
+print(Q)
+
+
+#%%
+import heapq
 
 # 2. 최대 우선 순회 힙 구조
 num = [5, 2, 3, 2, 10, 1]
@@ -35,11 +42,17 @@ while heap:
 
 print(max_heap)
 
+#%%
+import heapq
+
 # 3. 이미 원소가 있는 list를 heap으로 바꾸기
 Q2 = [4, 2, 1, 2, 10]
 heapq.heapify(Q2)
 
 print(Q2)
+
+#%%
+import heapq
 
 # 4. n번째 최소값 or 최대값 출력
 Q4 = [4, 2, 1, 2, 10]

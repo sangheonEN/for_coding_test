@@ -2,7 +2,6 @@
 
 from typing import List
 import collections, heapq
-from collections import deque
 
 
 class Solution:
