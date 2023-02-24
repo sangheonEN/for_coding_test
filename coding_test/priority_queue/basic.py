@@ -87,3 +87,20 @@ print(nth_smallest(Q4, n))
 print(nth_biggest(Q4, n))
 
 
+
+#%%
+import heapq
+
+"""
+파이썬 heap은 전체를 정렬하지않고 push나 pop을 한 후에 0번 인덱스에 최소값이 오는 것만 보장
+"""
+
+h = [[5, 1], [5, 2], [0, 2], [2, 1], [1, 1]]
+a, b = heapq.heappop(h)
+print(a, b, h)
+a, b = heapq.heappop(h)
+print(a, b, h)
+a, b = heapq.heappop(h)
+print(a, b, h)
+a, b = heapq.heappop(h)
+print(a, b, h)
