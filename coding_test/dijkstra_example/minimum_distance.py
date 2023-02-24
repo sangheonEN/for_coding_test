@@ -16,7 +16,6 @@ start: 1, end: 4
 
 class Solution:
     def dijkstra_algorithm(self, node_info, start, end, N):
-        INF = int(1e9)
 
         graph = collections.defaultdict(list) # collections.defaultdict 순서가 있는 dict 변수 선언 가능
 
@@ -27,6 +26,8 @@ class Solution:
         queue = [[start, 0]] # (거리, 출발노드) 배열 초기화
 
         # node index별로 최단 distance 저장
+        INF = int(1e9)
+
         dist = [INF] * (N+1)
 
         while queue:
@@ -40,7 +41,10 @@ class Solution:
 
             # 인접 노드 탐방
             for next_node, next_distance in graph[node]:
+                # 누적 거리를 저장
                 cumulative_distance = distance + next_distance
+                # 알고리즘을 반복할 때마다 실시간으로 시작노드와 가장 가까운 노드를 저장하기 위한 목적으로 우선순위 큐를 활용
+                # 우선순위가 없는 큐 자료구조로 구현하면, 인접한 노드들 중에 가장 가까운 노드 찾기 위해 결국 전부 탐색해야되니 시간복잡도가 늘어난다.
                 heapq.heappush(queue, [next_node, cumulative_distance])
 
         # target node까지의 최단 거리 출력
