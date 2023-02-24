@@ -58,6 +58,7 @@ class Solution:
             # 왜냐하면, 우선순위 queue로 인접한 node 중 가장 가까운 node를 찾았으니, 그것보다 더 경유 횟수가 작거나 같을 것이니까!
             if cur_node not in visited or visited[cur_node] >= k:
                 visited[cur_node] = k
+                # 최대 경유 횟수보다 현재 경유 횟수가 초과되면 탐색 X
                 if k <= K:
                     # 인접노드 탐색
                     for next_node, next_price in graph[cur_node]:
