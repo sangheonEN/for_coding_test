@@ -1,6 +1,6 @@
 """
 
-# 시작지점-술래:중앙, 도망자: 지정(중앙x)
+# 시작지점-술래:중앙, 도망자: 지정 (중앙 x)
 # m명 도망자 이동방향: 유형1 상하(항상 아래쪽 보고 시작), 유형2 좌우(항상 오른쪽 보고 시작)
 # h개의 나무 존재. 나무는 술래 및 도망자 위치와 겹칠 수 있음.
 
@@ -41,8 +41,8 @@ def hider_move():
 
         if (abs(seeker_position[0] - x) + abs(seeker_position[1] - y)) <= 3:
             #move
-            nx = dx[d]
-            ny = dy[d]
+            nx = x + dx[d]
+            ny = y + dy[d]
             if is_grid(nx, ny):
                 # 방향 전환 x, 움직이려는 칸에 술래 있으면 이동 x
                 if nx == seeker_position[0] and ny == seeker_position[1]:
@@ -64,13 +64,12 @@ def hider_move():
 
 
 def seeker_move():
-
+    
 
     pass
 
 
 def hider_grap(t):
-
 
 
     pass
@@ -84,7 +83,7 @@ def simulation(t):
     # 술래 이동
     seeker_move()
 
-    # 도망자 잡기
+    # 술래가 도망자 잡기
     hider_grap(t)
 
     pass
@@ -122,17 +121,6 @@ if __name__ == "__main__":
     # score
     score = 0
 
-    #
+    # 총 k턴 만큼 시뮬레이션 시작
     for t in range(k):
         simulation(t+1)
-
-
-
-
-
-
-
-
-
-
-
