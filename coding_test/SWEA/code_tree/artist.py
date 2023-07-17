@@ -29,7 +29,7 @@ def rotate_square(sx, sy, square_n):
             # oy를 그냥 해주는 이유는 y가 증가하면 oy가 1씩 높아지므로 변화되는 x는 우측으로 이동해야되서 사실 변화가 없음.
             rx, ry = oy, square_n - ox - 1
             # sx, sy가 3, 3이면 3, 4로 넣어주기 위해 sx, sy를 rx, ry에 더한 좌표로 next arr에 넣어주기
-            next_boardp[rx + sx][ry + sy] = board[x][y]
+            next_board[rx + sx][ry + sy] = board[x][y]
 
 
 # 회전은 무조건 next_board를 초기화하여 그 안에 원소를 기존 board의 값을 참조해서 입력하여 새롭게 만들자!!

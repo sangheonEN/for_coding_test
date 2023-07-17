@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="878b0481-6c2c-4a38-bd42-efcf0cdd9ecf" name="Changes" comment="" />
+    <list default="true" id="878b0481-6c2c-4a38-bd42-efcf0cdd9ecf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/for_coding_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/for_coding_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coding_test/SWEA/code_tree/artist.py" beforeDir="false" afterPath="$PROJECT_DIR$/coding_test/SWEA/code_tree/artist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coding_test/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/coding_test/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,14 +31,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/jteks/Documents/Github/Extruding_Resin_Direction_Angle_inference_vision_code"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
   <component name="RunManager" selected="Python.second">
     <configuration name="debug_py" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="for_coding_test" />
@@ -222,13 +226,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/for_coding_test$debug_py.coverage" NAME="debug_py Coverage Results" MODIFIED="1676718161871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/coding_test" />
-    <SUITE FILE_PATH="coverage/for_coding_test$for_loop.coverage" NAME="for_loop Coverage Results" MODIFIED="1676765720850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/coding_test" />
-    <SUITE FILE_PATH="coverage/for_coding_test$second.coverage" NAME="second Coverage Results" MODIFIED="1676777986105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/coding_test/makinaracs" />
-    <SUITE FILE_PATH="coverage/for_coding_test$fight_ground.coverage" NAME="fight_ground Coverage Results" MODIFIED="1676719932952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/coding_test/SWEA/code_tree" />
-    <SUITE FILE_PATH="coverage/for_coding_test$14502.coverage" NAME="14502 Coverage Results" MODIFIED="1676544568524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/coding_test/SWEA/baekjoon" />
-    <SUITE FILE_PATH="coverage/for_coding_test$first.coverage" NAME="first Coverage Results" MODIFIED="1676768420956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/coding_test/makinaracs" />
   </component>
 </project>
