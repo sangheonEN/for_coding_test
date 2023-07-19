@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="878b0481-6c2c-4a38-bd42-efcf0cdd9ecf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/for_coding_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/for_coding_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coding_test/SWEA/code_tree/artist.py" beforeDir="false" afterPath="$PROJECT_DIR$/coding_test/SWEA/code_tree/artist.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coding_test/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/coding_test/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="878b0481-6c2c-4a38-bd42-efcf0cdd9ecf" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +28,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Drone mask dataset" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.second">
